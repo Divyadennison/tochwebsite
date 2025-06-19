@@ -50,8 +50,29 @@ p{
 {
     color:blue
 }
-.carousel-inner
+/* .icon{
+  text-align:center;
+  font-family:"oswald",sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin:20px;
+  height:2000px;
+  width:200px
+
+} */
+.icon:hover
 {
-  height: 2100px;
-  
+  color:white
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blink {
+  animation: blink 1s infinite;
+  color: #d60000;
+  font-size: 24px;
+  font-weight: bold;
 }
